@@ -42,7 +42,7 @@ public class StuGradeTest {
 	@Test
 	public void testAvg() {
 		int answer;
-		answer=sg.min(avgarr);
+		answer=sg.avg(avgarr);
 		assertEquals(40,answer);
 	}
 
