@@ -1,15 +1,16 @@
 package com.stackroute.pe2;
 
 
-	class Member
+class Member
 	{
 	 protected String name="";
 	 protected int age;
 	 protected double sal;
-	 
-	}
-	public class MemberVariable extends Member
-{
+	 }
+	
+
+public class MemberVariable extends Member
+	{
 		Member mem=new Member();
 	    MemberVariable(String name,int age,double sal)
 	    {
@@ -23,4 +24,4 @@ package com.stackroute.pe2;
 	    	return res;
 	    }
 
-}
+	}
