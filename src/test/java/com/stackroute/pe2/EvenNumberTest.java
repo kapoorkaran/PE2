@@ -21,21 +21,21 @@ public class EvenNumberTest {
 	public void testEven() {
 		boolean answer;
 		answer=EvenNumber.isEven(10);
-		assertEquals("true",answer);
+		assertEquals(true,answer);
 	}
 	
 	@Test
 	public void testNotEven() {
 		boolean answer;
 		answer=EvenNumber.isEven(3);
-		assertEquals("true",answer);
+		assertEquals(true,answer);
 	}
 	
 	@Test
 	public void testEvenFailure() {
 		boolean answer;
 		answer=EvenNumber.isEven(8);
-		assertNotEquals("true",answer);
+		assertNotEquals(true,answer);
 	}
 	
 
